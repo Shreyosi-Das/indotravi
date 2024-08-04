@@ -1,0 +1,46 @@
+@import '@fortawesome/fontawesome-free/css/all.css';
+
+
+/* DatePickerCustom.css */
+.date-picker-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    /* background-color: #f0ecec29;
+    backdrop-filter: blur(3px); */
+    padding: 10px;
+    color: white; 
+    font-size: 16px;
+}
+
+.date-picker-container input {
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    /* width: min-content; */
+    /* width: 20px; */
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.date-picker-container input::placeholder {
+    color: white;
+}
+
+.date-picker-container .calendar-icon,
+.date-picker-container .dropdown-icon {
+    color: white;
+}
+
+.date-picker-container .calendar-icon {
+    margin-right: 10px;
+}
+
+.date-picker-container .dropdown-icon {
+    margin-left: 10px;
+    pointer-events: none;
+    border-right: 2px solid #ccc;
+    padding-right: 10px;
+}
